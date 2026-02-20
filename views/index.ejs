@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Employees</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- <h1>Employees</h1> -->
+     <h1>Employee List</h1>
+
+<a href="/add">Add Employee</a>
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Department</th>
+        <th>Salary</th>
+        <th>Start Date</th>
+        <th>Actions</th>
+    </tr>
+
+    <% employees.forEach(emp => { %>
+        <tr>
+            <td><%= emp.id %></td>
+            <td><%= emp.name %></td>
+            <td><%= emp.gender %></td>
+            <td><%= emp.department %></td>
+            <td><%= emp.salary %></td>
+            <td><%= emp.start_date %></td>
+            <td>
+                <a href="/edit/<%= emp.id %>">Edit</a>
+                <a href="/delete/<%= emp.id %>">Delete</a>
+            </td>
+        </tr>
+    <% }) %>
+
+</table>
+
+
+</body>
+</html>

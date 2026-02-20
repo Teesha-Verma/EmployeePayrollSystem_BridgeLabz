@@ -1,10 +1,34 @@
 [
   {
     "id": 2,
-    "name": "annu ka billu",
-    "gender": "female",
+    "name": "biloti",
+    "gender": "male",
     "department": "employee",
-    "salary": "$678",
-    "start_date": "10 sept 2025"
+    "salary": "$56788",
+    "start_date": "15 jan 2026"
+  },
+  {
+    "id": 3,
+    "name": "chhokri",
+    "gender": "female",
+    "department": "hr",
+    "salary": "$588",
+    "start_date": "18 june 2016"
+  },
+  {
+    "id": 4,
+    "name": "annu",
+    "gender": "female",
+    "department": "hr",
+    "salary": "$585678",
+    "start_date": "15 april 2026"
+  },
+  {
+    "id": 5,
+    "name": "renu don",
+    "gender": "male",
+    "department": "employee",
+    "salary": "$95878",
+    "start_date": "23 Sept 2019"
   }
 ]
